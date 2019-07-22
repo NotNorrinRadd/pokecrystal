@@ -180,12 +180,12 @@ JOHTO_POKEMON EQU const_value
 	const TOTODILE   ; 9e
 	const CROCONAW   ; 9f
 	const FERALIGATR ; a0
-	const SENTRET    ; a1
-	const FURRET     ; a2
-	const HOOTHOOT   ; a3
-	const NOCTOWL    ; a4
-	const LEDYBA     ; a5
-	const LEDIAN     ; a6
+	const SENTRET    ; a1 UNUSED YANMEGA
+	const FURRET     ; a2 UNUSED MAMOSWINE
+	const HOOTHOOT   ; a3 UNUSED HONCHKROW
+	const NOCTOWL    ; a4 UNUSED TOGEKISS
+	const LEDYBA     ; a5 UNUSED GLISCOR
+	const LEDIAN     ; a6 UNUSED WEAVILE
 	const SPINARAK   ; a7
 	const ARIADOS    ; a8
 	const CROBAT     ; a9
@@ -201,17 +201,17 @@ JOHTO_POKEMON EQU const_value
 	const MAREEP     ; b3
 	const FLAAFFY    ; b4
 	const AMPHAROS   ; b5
-	const BELLOSSOM  ; b6
+	const BELLOSSOM  ; b6 UNUSED MAY ADD
 	const MARILL     ; b7
 	const AZUMARILL  ; b8
 	const SUDOWOODO  ; b9
 	const POLITOED   ; ba
-	const HOPPIP     ; bb
-	const SKIPLOOM   ; bc
-	const JUMPLUFF   ; bd
-	const AIPOM      ; be
-	const SUNKERN    ; bf
-	const SUNFLORA   ; c0
+	const HOPPIP     ; bb UNUSED MISMAGIUS
+	const SKIPLOOM   ; bc UNUSED LEAFEON
+	const JUMPLUFF   ; bd UNUSED GLACEON
+	const AIPOM      ; be UNUSED MAGNEZONE
+	const SUNKERN    ; bf UNUSED ELECTIVIRE
+	const SUNFLORA   ; c0 UNUSED MAGMORTAR
 	const YANMA      ; c1
 	const WOOPER     ; c2
 	const QUAGSIRE   ; c3
@@ -220,47 +220,47 @@ JOHTO_POKEMON EQU const_value
 	const MURKROW    ; c6
 	const SLOWKING   ; c7
 	const MISDREAVUS ; c8
-	const UNOWN      ; c9
-	const WOBBUFFET  ; ca
-	const GIRAFARIG  ; cb
-	const PINECO     ; cc
-	const FORRETRESS ; cd
-	const DUNSPARCE  ; ce
+	const UNOWN      ; c9 UNUSED PORYGON-Z
+	const WOBBUFFET  ; ca UNUSED TANGROWTH
+	const GIRAFARIG  ; cb UNUSED RHYPHERIOR
+	const PINECO     ; cc UNUSED CRANIDOS
+	const FORRETRESS ; cd UNUSED RAMPARDOS
+	const DUNSPARCE  ; ce UNUSED SYLVEON
 	const GLIGAR     ; cf
 	const STEELIX    ; d0
-	const SNUBBULL   ; d1
-	const GRANBULL   ; d2
-	const QWILFISH   ; d3
+	const SNUBBULL   ; d1 UNUSED MAY ADD LICKILICKY
+	const GRANBULL   ; d2 UNUSED
+	const QWILFISH   ; d3 UNUSED
 	const SCIZOR     ; d4
-	const SHUCKLE    ; d5
+	const SHUCKLE    ; d5 UNUSED
 	const HERACROSS  ; d6
 	const SNEASEL    ; d7
-	const TEDDIURSA  ; d8
-	const URSARING   ; d9
-	const SLUGMA     ; da
-	const MAGCARGO   ; db
+	const TEDDIURSA  ; d8 UNUSED
+	const URSARING   ; d9 UNUSED
+	const SLUGMA     ; da UNUSED
+	const MAGCARGO   ; db UNUSED
 	const SWINUB     ; dc
 	const PILOSWINE  ; dd
-	const CORSOLA    ; de
-	const REMORAID   ; df
-	const OCTILLERY  ; e0
-	const DELIBIRD   ; e1
-	const MANTINE    ; e2
-	const SKARMORY   ; e3
+	const CORSOLA    ; de UNUSED
+	const REMORAID   ; df UNUSED
+	const OCTILLERY  ; e0 UNUSED
+	const DELIBIRD   ; e1 UNUSED
+	const MANTINE    ; e2 UNUSED
+	const SKARMORY   ; e3 UNUSED
 	const HOUNDOUR   ; e4
 	const HOUNDOOM   ; e5
 	const KINGDRA    ; e6
 	const PHANPY     ; e7
 	const DONPHAN    ; e8
 	const PORYGON2   ; e9
-	const STANTLER   ; ea
-	const SMEARGLE   ; eb
+	const STANTLER   ; ea UNUSED
+	const SMEARGLE   ; eb UNUSED
 	const TYROGUE    ; ec
 	const HITMONTOP  ; ed
 	const SMOOCHUM   ; ee
 	const ELEKID     ; ef
 	const MAGBY      ; f0
-	const MILTANK    ; f1
+	const MILTANK    ; f1 UNUSED
 	const BLISSEY    ; f2
 	const RAIKOU     ; f3
 	const ENTEI      ; f4
@@ -270,7 +270,7 @@ JOHTO_POKEMON EQU const_value
 	const TYRANITAR  ; f8
 	const LUGIA      ; f9
 	const HO_OH      ; fa
-	const CELEBI     ; fb
+	const CELEBI     ; fb UNUSED
 NUM_POKEMON EQU const_value + -1
 	const MON_FC     ; fc
 	const EGG        ; fd
